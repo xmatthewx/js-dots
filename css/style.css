@@ -1,0 +1,25 @@
+#dotCanvas {
+  line-height:1.4em;
+  padding:40px 10%;
+}
+
+.dot {
+    position:absolute;
+    top:50%; left:50%; /* start in the middle. changed with JS */
+    height:40px; width:40px;
+    margin:-20px 0 0 -20px;
+    border-radius:50%;
+    background:rgba(0,0,0,0.1);
+    transition:left,2s;
+    transition-property: left, top, color;
+    transition-duration: 3s, 3s, 5s;
+}
+
+.dot:hover {
+    cursor:pointer;
+    background:rgba(255,0,255,0.6);
+}
+
+#dotTemplate {
+	background:red; /* removed with JS */
+}
