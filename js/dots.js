@@ -109,11 +109,12 @@ var feature = {
 *
 */
 
+app.init();
 
 // run on modern browsers
-if (feature.addEventListener && feature.querySelectorAll) {
-    app.init();
-} else {
-    alert('requires a modern browser');
-}
+// if (feature.addEventListener && feature.querySelectorAll) {
+//     app.init();
+// } else {
+//     alert('requires a modern browser');
+// }
 
