@@ -40,7 +40,7 @@ app.init = function () {
 app.makeDots = function () {
 
     // loop to make dots
-    var i = 0,
+    var i = 0;
     var x, y, clone;
 
     for (i; i < app.count; i++) {
@@ -108,6 +108,7 @@ var feature = {
 * test browser and begin!
 *
 */
+
 
 // run on modern browsers
 if (feature.addEventListener && feature.querySelectorAll) {
