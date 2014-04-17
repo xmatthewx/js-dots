@@ -109,9 +109,8 @@ var feature = {
 *
 */
 
-app.init();
+app.init(); // run the app. or, test for moder browsers first...
 
-// run on modern browsers
 // if (feature.addEventListener && feature.querySelectorAll) {
 //     app.init();
 // } else {
