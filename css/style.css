@@ -1,9 +1,9 @@
-#dotCanvas {
+#dotCanvas { /* container for all the dots */
   line-height:1.4em;
   padding:40px 10%;
 }
 
-.dot {
+.dot { 
     position:absolute;
     top:50%; left:50%; /* start in the middle. changed with JS */
     height:40px; width:40px;
